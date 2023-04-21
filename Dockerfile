@@ -15,7 +15,7 @@
 # EXPOSE 9090
 # CMD npm run start
 
-FROM node:18.12.1-slim
+FROM node:18-alpine
 
 WORKDIR /app
 

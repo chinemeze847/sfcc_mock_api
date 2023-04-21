@@ -1,6 +1,7 @@
-import User from "src/models/user"
+import products  from "src/data/product";
 
-export const getProductsService = async () => {
-    const users = await User.findAll();
-    return users;
+
+
+export const getProductsService =  () => {
+    return products;
 }

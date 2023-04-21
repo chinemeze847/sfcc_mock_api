@@ -24,15 +24,23 @@ export default class User extends Model implements UserInterface{
     @Column
     id?: number
     
+    // @AllowNull(false)
+    // @NotEmpty
     @Column
     firstname!: string
 
+    // @AllowNull(false)
+    // @NotEmpty
     @Column
     lastname!: string;
 
+    // @AllowNull(false)
+    // @NotEmpty
     @Column
     email!: string;
 
+    // @AllowNull(false)
+    // @NotEmpty
     @Column
     password!: string;
 
