@@ -1,4 +1,4 @@
-const products : object = {
+const products  = {
     "limit": 10,
     "data": [
         {
