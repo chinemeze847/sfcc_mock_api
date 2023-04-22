@@ -17,5 +17,4 @@ router.route('/products').get(tokenGuard,getProducts);
 router.route('/products/:id').get(tokenGuard, getProduct)
 
 
-
 export default router;
